@@ -1,0 +1,97 @@
+.btn {
+    color: black;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    background: white;
+    border: 2px solid black;
+    
+  }
+  .btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+  }
+
+  .image {
+    background: #34495e;
+    border: 1px solid #34495e;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .image-contain {
+    object-fit: contain;
+    object-position: center;
+  }
+  
+  .image-cover {
+    object-fit: cover;
+    object-position: right top;
+  }
+  .content {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+  }
+  .content .title {
+    color:palevioletred;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: linear-gradient(
+      120deg,
+      #1c99fe 99.69%,
+      /* #7644ff 0.19%, */
+      #fd4766 0.69%
+    );
+    -webkit-background-clip:text,border-box;
+    -webkit-text-fill-color: transparent;
+  }
+  .content h1 {
+      color:palevioletred;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 90px;
+    margin-bottom: 1px;
+    text-transform: inherit;
+    width: 45%;
+  }
+
+  .content h2 {
+ color:blueviolet;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 90px;
+  margin-top: 2px;
+  text-transform: inherit;
+  width: 40%;
+}
+
+  .content h1 span {
+    color: #fd4766;
+  }
+  .content p {
+    width: 55%;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+  
